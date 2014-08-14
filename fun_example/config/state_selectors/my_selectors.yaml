@@ -1,0 +1,5 @@
+trivial:
+  selector_module: measure.state_selectors.default
+  selector_function: trivial
+  parameters : !!null
+

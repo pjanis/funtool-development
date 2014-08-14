@@ -1,0 +1,33 @@
+- first_analysis:
+  - process_type: adaptor
+    process_name: conf_adaptor
+
+  - process_type: state_measure
+    process_name: count_blocks
+
+  - process_type: state_measure
+    process_name: total_scripts
+
+  - process_type: state_measure
+    process_name: green_flag_scripts
+
+  - process_type: state_measure
+    process_name: green_flag_to_total_scripts
+
+  - process_type: state_measure
+    process_name: broadcasts_sent_to_received
+
+  - process_type: state_measure
+    process_name: when_blocks
+
+  - process_type: reporter
+    process_name: save_states_tsv
+
+  - process_type: reporter
+    process_name: save_states_csv
+  
+  - process_type: reporter
+    process_name: greenflag_ratio_csv
+
+  - process_type: reporter
+    process_name: greenflag_ratio_tsv
